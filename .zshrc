@@ -134,8 +134,7 @@ test -d /usr/local/heroku/ && export PATH="/usr/local/heroku/bin:$PATH"
 # Path for rabbitmq
 test -d /usr/local/sbin/ && export PATH="$PATH:/usr/local/sbin"
 # Rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+test -d "$HOME/.rbenv/bin" && export PATH="$HOME/.rbenv/bin:$PATH" && eval "$(rbenv init -)"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
