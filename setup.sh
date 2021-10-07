@@ -3,5 +3,5 @@
 cd ~
 ln -nfs "$(pwd)/dotfiles/.zshrc" ~/.zshrc
 ln -nfs "$(pwd)/dotfiles/.gitconfig" ~/.gitconfig
-ln -nfs "$(pwd)/dotfiles/.gitconfig-ridwellwork" ~/.gitconfig-ridwell
-ln -nfs "$(pwd)/dotfiles/.gitignore-gglobal" ~/.gitignore-global
+ln -nfs "$(pwd)/dotfiles/.gitconfig-ridwell" ~/.gitconfig-ridwell
+ln -nfs "$(pwd)/dotfiles/.gitignore-global" ~/.gitignore-global
